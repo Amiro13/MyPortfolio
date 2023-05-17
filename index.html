@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Porfolio</title>
+</head>
+<body>
+  <section class="section">
+   
+      <nav>
+        <div class="navbar-left">Amir</div>
+        <div class="navbar-right">
+          <a href="meteo.html">Api</a>
+          <a href="#Projects">Features Projets</a>
+          <a href="#Contact"><span>Contact Me</span></a>
+        </div>
+
+        <div class="burger">
+          <div class="line l1"></div>
+          <div class="line l2"></div>
+          <div class="line l3"></div>
+        </div>
+          <!-- <div id="api-result"></div> -->
+        </div>
+      </nav>
+
+        <div class="titre">
+          <h1>Creating <span>web site</span> and <span>digital products</span></h1>
+        </div>
+
+
+        <div class="bouton">
+          <a href="#Contact"><button  class="contact-styled" type="button"> Contact Me </button></a>
+          <a href="#Projects"><button class="features-styled" type="button"> Features Projects </button></a>
+        </div>
+
+        <div class="bio">
+          <h2>Hi ! My name is Amir Mimouni and I am a
+             Junior Web Developer in training specializingin
+              web and mobile web dev</h2> 
+              <img class="kratos" src="./image/kratos.jpg" alt="kratos"></div>
+      
+          <!-- Modale qui s'affiche lorsqu'on clique sur l'image -->
+          <div class="modal-kratos">
+          <img class="modal-image" src="./image/kratos.jpg" alt="kratos">
+          <span class="close-kratos">&times;</span>
+          </div>
+
+
+        <h3 id="Projects">Features Projects</h3>
+
+        <div class="container">
+            <a href="">
+              <img src="image/69.jfif" class="project-img" alt="6ix9ine" >
+              <p class="project-tile"> GOTTI </p>
+            </a>
+            <a href="">
+               <img src="image/13blo.jpg" class="project-img" alt="13 Block" >
+               <!-- <video class="video" src="./image/A1 A3.htm"> </video> -->
+              <p class="project-tile"> A1 A3 </p> 
+            </a>
+            <a href="">
+               <img src="image/partynextdoor-partymobile.jfif" class="project-img" alt="partynextdoor" >
+              <p class="project-tile"> THE NEWS </p>
+            </a>
+            <a href="">
+               <img src="image/land.jfif" class="project-img" alt="kekra">
+              <p class="project-tile"> 10 BALLES </p>
+            </a>
+            <a href="">
+                <img src="image/jackboys.jfif" class="project-img" alt="JACKBOYS" >
+              <p class="project-tile"> JACKBOYS </p>
+            </a>
+            <a href="">
+                <img src="image/metro.jfif" class="project-img" alt="metroboomin" >
+              <p class="project-tile"> OVERDUE </p>
+            </a>
+        </div>
+
+        <h4>Want to<span>work</span>with me ?</h4>
+
+        <div id="Contact" class="bas">
+         
+          <div class="map">
+              <img src="image/carte.jfif" alt="image carte" class="loca-img">
+          </div>
+
+            <div class="formulaire">
+    
+              <form id="formulaire" method="post"  action="">
+
+                <input name="name" type="text" class="formu" id="lname" placeholder="Name:" required="">
+                     
+                <input name="email" type="email" class="formu" id="email" placeholder="Email:" required="">
+    
+                <input name="subject" type="text" class="formu" id="subject" placeholder="Subject:" required="">
+    
+                <textarea class="textarea" name="message" id="message" placeholder="message" rows="4" required=""></textarea>
+    
+                <input type="submit" class="formu submit" value="Send">
+
+              </form>
+            </div>
+        </div>
+
+       <footer>
+        <div class="left">Amir</div>
+        <div class="middle">
+          <a href=""> <button>Up</button></a>
+        </div>
+        <div class="right">
+          <a href="https://twitter.com/">Twitter</a>
+          <a href="https://github.com/"><span>GitHub</span></a>
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+      </footer>
+      <script src="main.js"></script>
+       <script src="https://smtpjs.com/v3/smtp.js">
+       </script>
+  </section>      
+
+
+</body>
+</html>
